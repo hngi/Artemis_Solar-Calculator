@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 10px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+    color: green;
+    padding-right: 30px;
+}
+
+.navbar-dark .navbar-toggler{
+    border-color: grey;
+}
+.content-text{
+    margin-top: 20vh;
+    padding-left: 35px;
+   
+}
+
+#heading {
+    font-size: 100px;
+    letter-spacing: 5px;
+    color: green;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 700;
+}
+
+#subheading {
+    font-size:40px;
+    color: green;
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+#welcome_to{
+    font-size: 30px;
+    color: green;
+    letter-spacing: 1px;
+}
+
+.btn-lg{
+    border-radius: 30px;
+    margin-top: 50px;
+    padding: 12px 60px;
+   
+}
+
+@media screen and (max-width: 1000px){
+    .navbar-dark{
+        background-color: #27362f;
+    }
