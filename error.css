@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.oops{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.oops p{
+    font-size: 24px;
+}
+.sorry{
+    margin-top: 5%;
+}
+.sorry p{
+    font-size: 16px;
+}
+
+.error-button{
+    background-color: #73AF4D;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border: none;
+}
