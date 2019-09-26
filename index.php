@@ -19,101 +19,49 @@
     <img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569383582/HEADER_pz58tu.png" alt="Logo" style="width:40x;">
   </a>
 </nav> 
-<!--HOME PAGE CONTENT-->
+<img style="width: 100%" class="img-fluid header_bg" src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569483187/Home_v2_lzhzws.png" alt="">
 
-<!--
-                 <div class="content-text">
-                    <p id="welcome_to">Welcome to</p>
-                    <h1 id="heading">Artemis</h1>
-                    <p id="subheading">Solar Load Calculator</p>
-BUTTON
-                    <button class="btn btn-lg btn-success">Explore</button>
-                 </div>
---></div>
+</div>
     </header>
     <section class="calculator">
        <h1>Calculator</h1>
        <p>Fill in your appliances &amp; loads here </p>
        <form action="">
 <!--          Appliances 1-->
-           <div class="appliance">
+           <div class="appliance artemis-width">
                <input type="text" placeholder="Appliance">
                <input type="number" placeholder="Quantity">
                <input type="number" placeholder="AC Watts">
                <input type="number" placeholder="Hours-ON">
                <input type="number" placeholder="Watt-Hours">  
-                        
-                       
-  <span class="round">
-    <input type="checkbox" id="checkbox1" />
-    <label for="checkbox1"></label>
-  </span>
-
-                    
+                  <Button>Add</Button>          
       </div>
-                 <div class="appliance">
+            </form>     
+              <section class="append">
+                  <span> 
+                  <div class="artemis calculator_readonly">
+               <input type="text" placeholder="Appliance" readonly>
+               <input type="number" placeholder="Quantity" readonly>
+               <input type="number" placeholder="AC Watts" readonly>
+               <input type="number" placeholder="Hours-ON" readonly>
+               <input type="number" placeholder="Watt-Hours" readonly>
+               <input type="text" placeholder="Remove" readonly>            
+      </div>  
+                  </span>
+                   <form action="">
+                <div class="appliance checked artemis-width">
                <input type="text" placeholder="Appliance">
                <input type="number" placeholder="Quantity">
                <input type="number" placeholder="AC Watts">
                <input type="number" placeholder="Hours-ON">
                <input type="number" placeholder="Watt-Hours">  
-    <span class="round">
-    <input type="checkbox" id="checkbox2" />
-    <label for="checkbox2"></label>
-  </span>
-      </div>
-                 
-                 <div class="appliance">
-               <input type="text" placeholder="Appliance">
-               <input type="number" placeholder="Quantity">
-               <input type="number" placeholder="AC Watts">
-               <input type="number" placeholder="Hours-ON">
-               <input type="number" placeholder="Watt-Hours">  
-  <span class="round">
-    <input type="checkbox" id="checkbox3" />
-    <label for="checkbox3"></label>
-  </span>
-      </div>
-                 
-                 <div class="appliance">
-               <input type="text" placeholder="Appliance">
-               <input type="number" placeholder="Quantity">
-               <input type="number" placeholder="AC Watts">
-               <input type="number" placeholder="Hours-ON">
-               <input type="number" placeholder="Watt-Hours">  
-    <span class="round">
-    <input type="checkbox" id="checkbox4" />
-    <label for="checkbox4"></label>
-  </span>
-      </div>
-                 
-                 <div class="appliance">
-               <input type="text" placeholder="Appliance">
-               <input type="number" placeholder="Quantity">
-               <input type="number" placeholder="AC Watts">
-               <input type="number" placeholder="Hours-ON">
-               <input type="number" placeholder="Watt-Hours">  
-    <span class="round">
-    <input type="checkbox" id="checkbox5" />
-    <label for="checkbox5"></label>
-  </span>
-      </div>
-                 
-                  <div class="appliance">
-               <input type="text" placeholder="Appliance">
-               <input type="number" placeholder="Quantity">
-               <input type="number" placeholder="AC Watts">
-               <input type="number" placeholder="Hours-ON">
-               <input type="number" placeholder="Watt-Hours">  
-    <span class="round">
-    <input type="checkbox" id="checkbox6" />
-    <label for="checkbox6"></label>
-  </span>
-      </div>
-                  
-       <span> <button>Calculate</button> <!--  <input type="submit" value="Calculate">--></span>
+                  <Button>Remove</Button>          
+      </div>  
+    
        </form>
         
+              </section>
+              
     </section>
     <section class="result">
         <p>Total Watt-Hours/Day:</p>
@@ -188,8 +136,8 @@ BUTTON
        <a href=""><img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569479207/google-logo_adjanc.png" alt=""></a> 
         </div>
     </section>
-    <section class="copyright">
-        <p>&copy; 2017 - 2019 Atermis</p>
+    <section class="copyright artemis">
+        <p>&copy; 2017 - 2019 <a href="">Atermis</a></p>
     </section>
   <!--NAV BAR-->
         
@@ -199,14 +147,23 @@ BUTTON
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
 <script>
-$("input[type='checkbox']").change(function(){
-    if($(this).is(":checked")){
-        $(this).parent().parent().addClass("checked"); 
+    function checkScroll(){
+    var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
+
+    if($(window).scrollTop() > startY){
+        $('.navbar').addClass("scrolled");
     }else{
-        $(this).parent().parent().removeClass("checked");  
+        $('.navbar').removeClass("scrolled");
     }
-});
+}
+
+if($('.navbar').length > 0){
+    $(window).on("scroll load resize", function(){
+        checkScroll();
+    });
+}
     </script>
 </body>
 </html>
