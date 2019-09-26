@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,12 @@
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style/index.css">
   <link rel="stylesheet" href="style/checkbox.css">
+    <script src="https://kit.fontawesome.com/1b74471b9a.js" crossorigin="anonymous"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+    </script>
   
   	<title>Solar Load Calculator</title>
 </head>
@@ -16,7 +23,7 @@
        <nav class="navbar navbar-expand-sm bg-artemis  fixed-top">
        
    <a class=" col-sm-8 navbar-brand" href="#">
-    <img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569383582/HEADER_pz58tu.png" alt="Logo" style="width:40x;">
+    <img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569383582/HEADER_pz58tu.png" alt="Logo">
   </a>
 </nav> 
 <img style="width: 100%" class="img-fluid header_bg" src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569483187/Home_v2_lzhzws.png" alt="">
@@ -26,46 +33,87 @@
     <section class="calculator">
        <h1>Calculator</h1>
        <p>Fill in your appliances &amp; loads here </p>
-       <form action="">
+       <form action="add.php" method="post" id="appliance_form">
 <!--          Appliances 1-->
-           <div class="appliance artemis-width">
-               <input type="text" placeholder="Appliance">
-               <input type="number" placeholder="Quantity">
-               <input type="number" placeholder="AC Watts">
-               <input type="number" placeholder="Hours-ON">
-               <input type="number" placeholder="Watt-Hours">  
-                  <Button>Add</Button>          
+           <div class="appliance artemis-width" id="appliance">
+               <input type="text" placeholder="Appliance" name="appliance_name" id="appliance_name" onchange="appliance_name_func()" required>
+               <input type="number" placeholder="Quantity" name="quantity" id="quantity" onchange="appliance_quantity_func()" disabled min="1" required>
+               <input type="number" placeholder="AC Watts" name="watts" id="watts" onchange="appliance_watts_func()" disabled min="1" required>
+               <input type="number" placeholder="Hours-ON" name="hours_on" id="hours_on" onchange="appliance_hours_on_func()" disabled min="1" required>
+               <input type="text" placeholder="Watt-Hours" name="hours" id="hours" readonly value="" required>
+               <button id="addButton">ADD</button>
       </div>
-            </form>     
-              <section class="append">
-                  <span> 
-                  <div class="artemis calculator_readonly">
-               <input type="text" placeholder="Appliance" readonly>
-               <input type="number" placeholder="Quantity" readonly>
-               <input type="number" placeholder="AC Watts" readonly>
-               <input type="number" placeholder="Hours-ON" readonly>
-               <input type="number" placeholder="Watt-Hours" readonly>
-               <input type="text" placeholder="Remove" readonly>            
-      </div>  
-                  </span>
-                   <form action="">
-                <div class="appliance checked artemis-width">
-               <input type="text" placeholder="Appliance">
-               <input type="number" placeholder="Quantity">
-               <input type="number" placeholder="AC Watts">
-               <input type="number" placeholder="Hours-ON">
-               <input type="number" placeholder="Watt-Hours">  
-                  <Button>Remove</Button>          
-      </div>  
-    
-       </form>
+            </form>
+        <div id="appliance_error" style="visibility: hidden; color: red">&nbsp;</div>
+        <div class="append">
+            <div class="artemis calculator_readonly">
+               <input type="text" placeholder="Appliance" disabled>
+               <input type="number" placeholder="Quantity" disabled>
+               <input type="number" placeholder="AC Watts" disabled>
+               <input type="number" placeholder="Hours-ON" disabled>
+               <input type="text" placeholder="Remove" disabled>
+            </div>
+            <div class="checked">
+                <div id="basket">
+                    <?php include('basket.php')?>
+                </div>
+            </div>
         
-              </section>
-              
+        </div>
+
+
+        <script type="text/javascript">
+            $(document).ready(function (e) {
+                $('#appliance_form').on('submit',(function (e) {
+                    e.preventDefault();
+                    $.ajax({
+                        url:'add.php',
+                        type: 'POST',
+                        data: new FormData(this),
+                        contentType: false,
+                        cache: false,
+                        processData: false,
+                        success: function () {
+                            // window.location.reload();
+                            console.log('success');
+                            //$('#basket').empty();
+                            $("#appliance_form")[0].reset();
+                            $('#basket').load(' #each_appliance');
+
+                            $('#result').empty();
+                            $('#result').load(' #result');
+
+                        },
+                        error: function () {
+                            console.log('error');
+                        }
+                    })
+                }));
+            });
+
+            $(document).ready(function () {
+                $(document).ready(function () {
+                    $('#basket').on('click','a[id="removeBtn"]', function(e) {
+                        e.preventDefault();
+                        var href = $(this).attr('href');
+                        $.ajax({
+                            type: "GET",
+                            url: "index.php?action=delete&id="+href,
+                            success: function () {
+                                $('#result').empty();
+                                $('#basket').load(' #each_appliance');
+
+                                $('#result').load(' #result');
+                            }
+                        });
+                    });
+                });
+            })
+        </script>
     </section>
     <section class="result">
         <p>Total Watt-Hours/Day:</p>
-        <h1>930wh</h1>
+        <h1 id="result"><?php echo number_format($total_watts,0) ?>wh</h1>
     </section>
     <section class="diy">
         <main class="col-sm-7">
@@ -147,7 +195,7 @@
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  
+    <script src="js/add-appliance.js"></script>
 <script>
     function checkScroll(){
     var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
@@ -166,4 +214,5 @@ if($('.navbar').length > 0){
 }
     </script>
 </body>
+
 </html>
