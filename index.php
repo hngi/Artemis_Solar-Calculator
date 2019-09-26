@@ -50,7 +50,7 @@
                <input type="text" placeholder="Appliance" disabled>
                <input type="number" placeholder="Quantity" disabled>
                <input type="number" placeholder="AC Watts" disabled>
-               <input type="number" placeholder="Hours-ON" disabled>
+               <input type="number" placeholder="Watt-Hours" disabled>
                <input type="text" placeholder="Remove" disabled>
             </div>
             <div class="checked">
@@ -83,6 +83,9 @@
                             $('#result').empty();
                             $('#result').load(' #result');
 
+                            $('#panel').empty();
+                            $('#panel').load(' #panel');
+
                         },
                         error: function () {
                             console.log('error');
@@ -101,9 +104,12 @@
                             url: "index.php?action=delete&id="+href,
                             success: function () {
                                 $('#result').empty();
+                                $('#panel').empty();
                                 $('#basket').load(' #each_appliance');
 
                                 $('#result').load(' #result');
+                                $('#panel').load(' #result');
+
                             }
                         });
                     });
@@ -112,8 +118,8 @@
         </script>
     </section>
     <section class="result">
-        <p>Total Watt-Hours/Day:</p>
-        <h1 id="result"><?php echo number_format($total_watts,0) ?>wh</h1>
+        <p>Total KiloWatt-Hours/Month:</p>
+        <h1 id="result"><?php echo number_format($total_kilowatts*30,0) ?>kwh</h1>
     </section>
     <section class="diy">
         <main class="col-sm-7">

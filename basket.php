@@ -1,5 +1,6 @@
 <?php
 $total_watts = 0;
+$total_kilowatts = 0;
     if (isset($_SESSION['appliance_array'])) {
     ?>
     <div id="each_appliance" class="each_appliance" style="max-height:150px;!important; overflow-y:auto; !important;">
@@ -15,6 +16,7 @@ $total_watts = 0;
             echo "<a href='{$value['Appliance']}' id='removeBtn'><button><i class='fa fa-trash'>Remove</i></button></a><br>";
 
             $total_watts += $value['Hours'];
+            $total_kilowatts = $total_watts/1000;
         }
         ?>
     </div>
