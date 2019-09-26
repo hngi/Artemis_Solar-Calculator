@@ -1,4 +1,6 @@
-header {}
+header nav {
+    background-color: rgb(115, 175, 77)
+}
 
 .header {
     background-color: #73AF4D;
@@ -34,8 +36,11 @@ header {}
 }
 
 .appliance {
+    height: 50px;
     width: 920px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
     border: 1px solid #73AF4D;
     padding: 5px;
@@ -43,7 +48,9 @@ header {}
     border-radius: 10px;
 
 }
-
+.appliance input::placeholder{
+    color:black;
+}
 .appliance input {
     border: none;
     text-align: center;
@@ -54,106 +61,202 @@ header {}
 .checked {
     background-color: #73AF4D;
 }
-.calculator, .result, .subscribe, .copyright{
+.checked input::placeholder{
+    color:white;
+}
+.checked input {
+    color: white;
+    border: none;
+    text-align: center;
+    background: none;
+}
+
+.calculator,
+.result,
+.subscribe,
+.copyright {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.calculator form{
+
+.calculator {
+    margin: 20px 0px
+}
+
+.calculator form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.calculator div{
+
+.calculator form input[type=checkbox] {
+    height: 10px;
+    margin:auto 12px;
+    padding: ;
+    
+}
+
+.calculator button {
+
+    margin: 40px;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 42px;
+    background-color: #FBB222;
+    border: 1px solid #000;
+}
+
+.calculator div {
     margin: 10px
 }
-.result{
+
+.result {
     padding: 50px 0;
     line-height: 0;
+    background-color: RGB(115, 175, 77, 0.2);
 }
-.result h1{
+
+.result h1 {
+    color:#73AF4D;
     font-size: 100px;
     line-height: 0.7;
 }
-.result p{
+
+.result p {
+    color:#FBB222;
     font-size: 30px;
 }
-.diy{
+
+.diy {
+    height: px;
     display: flex;
     flex-direction: row;
-    margin: 10px 10%;
+    margin: 70px 15%;
     height: 300px
 }
+
+.diy main p {
+    font-weight: 500;
+}
+
 .diy_items div {
     display: flex;
     flex-direction: row;
+    font-size: 20px;
+    line-height: ;
 }
-.diy aside{
+.diy_items span{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.diy_items span img {
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+    
+}
+
+.diy hr {
+    border: none;
+    height: 1px;
+    width:450px;
+    background: black;
+    margin: 4px;
+    
+
+}
+
+.diy aside {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.subscribe{
+
+.subscribe {
     height: 300px;
     background-color: #73AF4D;
 }
-.footer{
+.subscribe_text{
+    color: white;
+    font-size: 27px
+}
+.subscribe input[type=text]{
+    width: 300px;
+    border: 0;
+    border-radius:10px 0 0 10px ;
+    height: 50px;
+    padding:15px;
+    font-weight: 500;        
+}
+
+.subscribe button{
+    width: 150px;
+    background: #fff;
+    border: 0;
+    font-weight:500;
+    color: #73AF4D;
+    display: flex;
+    justify-content: center;
+}
+.subscribe input::placeholder{
+    font-size: 15px; 
+    color: #ccc;
+}
+
+.footer {
     padding: 30px 15%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.social-icon{
+.footer_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-
+/*
+    position: relative;
+    bottom: 16px
+*/
+}
+.footer_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footer_heading h1{
+    font-size: 60px;
+    font-weight:640;
+}
+.footer_heading p{
+    line-height: 0.1;
+    font-size: 22px
+}
+.footer_caption p{
+   font-size: 13px; 
+    
+}
+.social-icon {
     display: flex;
     flex-direction: column;
 }
-/*.round {
-  position: relative;
+.social-icon img{
+    height: 15px;
+        margin-bottom: 18px;
 }
-
-.round label {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  cursor: pointer;
-  height: 28px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 28px;
+.copyright{
+    background:#2D451E;
+    color: #fff;
+    font-weight: 500;
 }
-
-.round label:after {
-  border: 2px solid #fff;
-  border-top: none;
-  border-right: none;
-  content: "";
-
-  height: 6px;
-  left: 7px;
-  opacity: 0;
-  position: absolute;
-  top: 8px;
-  transform: rotate(-45deg);
-  width: 12px;
+.copyright p{
+    padding: 10px;
 }
-
-.round input[type="checkbox"] {
-  visibility: hidden;
-}
-
-.round input[type="checkbox"]:checked + label {
-  background-color: #FBB222;
-  border-color: #FBB222;
-}
-
-.round input[type="checkbox"]:checked + label:after {
-  opacity: 1;
-}
-*/
-
-/* appliance checbox*/
+/*
 
 @media screen and (max-width: 1000px) {
     .header {
