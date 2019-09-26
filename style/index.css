@@ -23,9 +23,11 @@
 header nav {
     background-color: none;
 }
-header_bg{
+
+header_bg {
     width: 100vw;
 }
+
 .navbar {
     -webkit-transition: all 0.6s ease-out;
     -moz-transition: all 0.6s ease-out;
@@ -74,8 +76,7 @@ header_bg{
     margin-top: 100px;
 }
 
-/*
-appliance checbox*/
+
 .calculator_readonly input {
     border: none;
     text-align: center;
@@ -264,11 +265,13 @@ appliance checbox*/
     display: flex;
     justify-content: center;
 }
-.subscribe button:hover{
+
+.subscribe button:hover {
     background-color: #2D451E;
     color: #fff;
     border: 1px solid #fff;
 }
+
 .subscribe input::placeholder {
     font-size: 15px;
     color: #ccc;
@@ -348,67 +351,111 @@ appliance checbox*/
 
 
 
-/*
-
 @media screen and (max-width: 1000px) {
-    .header {
-        height: 70vw;
-        border-radius: 0 0 0 30%;
-
+    .appliance {
+        height: auto;
+        width: auto;
+        line-height: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: none
     }
 
-    .header::after {
-
-        right: 0;
-        border-top: 30vh solid #73AF4D;
-        border-right: 70vw solid white;
-        border-left: 2px solid #73AF4D;
-        border-bottom: 0.5px solid white;
-        border-bottom-left-radius: 3px;
+    .appliance button {
+        margin-left: 0;
+        padding: 0px 40px;
+        width: 80vw;
+        height: 50px;
+        color: white;
+        font-weight: 500;
+        font-size:20px;
+        background-color: #2D451E;
+        border-radius: 0 0 20px 20px;
     }
+
+    .appliance input::placeholder {
+        color: black;
+    }
+
+    .appliance input {
+        border: 1px solid;
+        width: 80vw;
+        height: 50px;
+        margin: 10px;
+        font-size:20px;
+        text-align: center;
+        background: none;
+    }
+
+    .appliance input:nth-child(1) {
+        border-radius: 20px 20px 0 0;
+    }
+    .calculator_readonly input {
+    border: none;
+    text-align: center;
+    background: none;
+        width: 90%
 }
 
-.bg-artemis {
-    padding: 10px 10%;
+.calculator_readonly {
+    width: ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid #73AF4D;
+    padding: 5px;
+    background: ;
+    border-radius: 5px;
+    font-size: 2.5vw;
+
+}
+    .each_appliance{
+
+    }
+    .each_appliance input{
+        width:16vw;
+        height:40px;
+        text-align: ;
+        padding-right: 0px;
+    }
+    .each_appliance button{
+        width: 16vw;
+        padding: 4px 1px;
+        font-size: 12px;
+        margin-left: 20px
+    }
+    .result h1 {
+    color: #73AF4D;
+    font-size: 13vw;
+    line-height: 1.0;
 }
 
-/*.navbar-dark .navbar-nav .nav-link{
-    color: green;
-    padding-right: 30px;
+.result p {
+    color: #FBB222;
+    font-size: 4vw;
+}
+    .diy{
+        margin: 0;
+        height: auto;
+    }
+    .diy main h1 {
+   text-align: center;
 }
 
-.navbar-dark .navbar-toggler{
-    border-color: grey;
+.diy_items div {
+    display: flex;
+    flex-direction: row;
+    line-height: ;
 }
-.content-text{
-    margin-top: 20vh;
-    padding-left: 35px;
-   
-}
+.diy aside {
+    display: none;
 
-#heading {
-    font-size: 100px;
-    letter-spacing: 5px;
-    color: green;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    font-weight: 700;
 }
-
-#subheading {
-    font-size:40px;
-    color: green;
-    margin-top: 0;
-    padding-top: 0;
-    font-weight: 400;
-    line-height: 40px;
-    letter-spacing: 1px;
-}
-
-#welcome_to{
-    font-size: 30px;
-    color: green;
-    letter-spacing: 1px;
+    .footer {
+    padding: 30px 0;
 }
 
 .btn-lg{
@@ -417,8 +464,3 @@ appliance checbox*/
     padding: 12px 60px;
    
 }
-
-@media screen and (max-width: 1000px){
-    .navbar-dark{
-        background-color: #27362f;
-    }*/
