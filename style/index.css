@@ -63,7 +63,7 @@ appliance checbox*/
 }
 
 .calculator_readonly {
-    width: 1130x;
+    width: ;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -118,12 +118,19 @@ appliance checbox*/
 }
 
 .appliance button {
+    margin-left: 20px;
     padding: 5px 40px;
     width: 300px;
     height: 35px;
     font-weight: 500;
     background-color: #FBB222;
     border-radius: 0 20px 20px 0;
+}
+
+.appliance button:hover{
+    background-color: #2D451E;
+    border: 1px solid #2D451E;
+    color:white;
 }
 
 .calculate_btn {
@@ -236,7 +243,11 @@ appliance checbox*/
     display: flex;
     justify-content: center;
 }
-
+.subscribe button:hover{
+    background-color: #2D451E;
+    color: #fff;
+    border: 1px solid #fff;
+}
 .subscribe input::placeholder {
     font-size: 15px;
     color: #ccc;
