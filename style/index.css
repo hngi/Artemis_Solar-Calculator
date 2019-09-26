@@ -457,10 +457,13 @@ header_bg {
     .footer {
     padding: 30px 0;
 }
-
-.btn-lg{
-    border-radius: 30px;
-    margin-top: 50px;
-    padding: 12px 60px;
-   
+    .footer_heading h1{
+        font-size: 6vw;
+    }
+    .footer_heading img{
+        width: 6vw;
+    }
+    .footer_heading p{
+        font-size: 2vw;
+    }
 }
