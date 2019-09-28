@@ -124,11 +124,11 @@
     </section>
     <section class="diy">
         <main class="col-sm-7">
-            <h1>How to use<br> Solar Load Calculator</h1>
+            <h1 style="font-size:10vw">How to use<br> Solar Load Calculator</h1>
             <div class="diy_items">
                 <div>
                     <span> <img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569477031/one_apsmtj.png" alt=""></span>
-                     <p>Fill out each Field for each appliance, if you are unsure about the wattage of your appliance.
+                     <p style="font-size:5vw">Fill out each Field for each appliance, if you are unsure about the wattage of your appliance.
                     </p>
                 
                    </div>
@@ -139,7 +139,7 @@
                 <div>
                    <div><span><img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569477024/two_cqaq97.png" alt=""></span></div>
                     
-                    <p>Use "Add Appliance" to add an empty row.</p>
+                    <p style="font-size:5vw">Use "Add Appliance" to add an empty row.</p>
                 </div>
             </div>
             <hr class="mx-auto">
@@ -147,7 +147,7 @@
             <div class="diy_items">
                 <div>
                     <span><img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569477018/three_aj4mbr.png" alt=""></span>
-                    <p>You can save the calculation to your email by filling out the form below and click on "Send" button. All fields are required.</p>
+                    <p style="font-size:5vw">You can save the calculation to your email by filling out the form below and click on "Send" button. All fields are required.</p>
                 </div>
             </div>
             
@@ -158,7 +158,7 @@
     </section>
     <section class="subscribe">
        
-        <p class="subscribe_text">Send the calculation to your mail</p>
+        <p style="font-size:5vw"; class="subscribe_text">Send the calculation to your mail</p>
         <form action="">
         <div class="input-group mb-3">
     <input type="text" class="form-control" placeholder="Enter your email">
