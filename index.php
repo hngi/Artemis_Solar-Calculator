@@ -27,7 +27,7 @@
     <img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569383582/HEADER_pz58tu.png" alt="Logo">
   </a>
 </nav> 
-<img style="width: 100%" class="img-fluid header_bg" src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569483187/Home_v2_lzhzws.png" alt="">
+<img style="max-width:100%;height:auto;  class="img-fluid header_bg" src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569483187/Home_v2_lzhzws.png" alt="">
 
 </div>
     </header>
