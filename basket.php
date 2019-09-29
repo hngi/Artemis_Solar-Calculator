@@ -13,7 +13,7 @@ $total_kilowatts = 0;
             echo "<input type='text' placeholder='{$value['Quantity']}' disabled>";
             echo "<input type='text' placeholder='{$value['Watts']}' disabled>";
             echo "<input type='text' placeholder='{$value['Hours']}' disabled>";
-            echo "<a href='{$value['Appliance']}' id='removeBtn'><button><i class='fa fa-trash'>Remove</i></button></a><br>";
+            echo "<a href='{$value['Appliance']}' id='removeBtn'><button><i class='fa fa-trash'></i>&nbspRemove</button></a><br>";
 
             $total_watts += $value['Hours'];
             $total_kilowatts = $total_watts/1000;

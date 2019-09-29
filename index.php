@@ -26,7 +26,7 @@
     <img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569383582/HEADER_pz58tu.png" alt="Logo">
   </a>
 </nav> 
-<img style="width: 100%" class="img-fluid header_bg" src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569483187/Home_v2_lzhzws.png" alt="">
+<img style="width:100%; height:100%" class="img-fluid header_bg" src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569483187/Home_v2_lzhzws.png" alt="">
 
 </div>
     </header>
@@ -174,17 +174,17 @@
     </section>
     <section class="footer">
        
-        <div class="footer_heading col-sm-4">
+        <div class="footer_heading col-12 col-sm-4">
             <h1><img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569479398/Shape_jx4klq.png" alt="">Artemis</h1>
             <p>Solar Load Calculator</p>
         </div>
-        <div class="col-sm-7 footer_caption">
+        <div class="col-12 col-sm-7 footer_caption">
             <p><B>About Solar Load Calculator</B><br>
             This calculator is a refreshingly simple, easy to use web interface for calculating load/appliances in order to use solar energy. Why? Because our mission is to build a better internet, one digital product at a time that promotes renewable energy. <br> Like the site? Send us a note.
             
             </p>
         </div>
-        <div class="col-sm-1 social-icon">
+        <div class="col-sm-1 col-12 social-icon">
             <a href=""><img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569479222/twitter-black-shape_q4pagm.png" alt=""></a>
             <a href=""><img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569479210/facebook-letter-logo_fwtp27.png" alt=""></a>
        <a href=""><img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569479207/google-logo_adjanc.png" alt=""></a> 
