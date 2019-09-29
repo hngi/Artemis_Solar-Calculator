@@ -70,7 +70,9 @@ header_bg {
     border: none;
     text-align: center;
     background: none;
+    outline: none;
 }
+
 
 .append {
     margin-top: 100px;
@@ -157,7 +159,9 @@ header_bg {
 .each_appliance button {
     color: white;
     background-color: #2D451E;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 30px;
+
 }
 
 .each_appliance input {
@@ -568,6 +572,7 @@ header_bg {
         font-size:20px;
         background-color: #2D451E;
         border-radius: 0 0 20px 20px;
+
     }
 
     .appliance input::placeholder {
@@ -613,14 +618,15 @@ header_bg {
     .each_appliance input{
         width:16vw;
         height:40px;
-        text-align: ;
+
         padding-right: 0px;
     }
     .each_appliance button{
-        width: 16vw;
+        width: 12vw;
         padding: 4px 1px;
         font-size: 12px;
-        margin-left: 20px
+        margin-left: 20px;
+
     }
     .result h1 {
     color: #73AF4D;

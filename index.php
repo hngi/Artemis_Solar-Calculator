@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="icon" href="https://res.cloudinary.com/incolet/image/upload/v1569671533/arte_lgn5fj.jpg" sizes="16x16" type="image/png">
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style/index.css">
   <link rel="stylesheet" href="style/checkbox.css">
@@ -118,8 +119,8 @@
         </script>
     </section>
     <section class="result">
-        <p>Total KiloWatt-Hours/Month:</p>
-        <h1 id="result"><?php echo number_format($total_kilowatts*30,0) ?>kwh</h1>
+        <p>Total KiloWatt-Hours/Day:</p>
+        <h1 id="result"><?php echo number_format($total_kilowatts,0) ?>kwh</h1>
     </section>
     <section class="diy">
         <main class="col-sm-7">
