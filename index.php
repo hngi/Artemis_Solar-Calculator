@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style/index.css">
   <link rel="stylesheet" href="style/checkbox.css">
+
     <script src="https://kit.fontawesome.com/1b74471b9a.js" crossorigin="anonymous"></script>
     <script
             src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -172,6 +173,10 @@
 -->
         </form>
     </section>
+    <section class="blog-section">
+       <h1 style="text-align:center">Read Articles</h1>
+        <?php include('includes/blog_section.php') ?>
+    </section>
     <section class="footer">
        
         <div class="footer_heading col-12 col-sm-4">
@@ -201,7 +206,9 @@
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="js/add-appliance.js"></script>
+       <script src="js/blog_carousel.js"></script>
 <script>
     function checkScroll(){
     var startY = $('.navbar').height() * 2; //The point where the navbar changes in px

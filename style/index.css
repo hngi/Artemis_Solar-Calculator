@@ -307,6 +307,7 @@ header_bg {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: RGB(115, 175, 77, 0.2);
 }
 
 .footer_logo {
@@ -317,6 +318,22 @@ header_bg {
     position: relative;
     bottom: 16px
 */
+}
+
+.blog-section {
+    padding-top: 50px;
+    }
+
+.blog-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-title,
+.blog-text {
+    font-size: 13px;
 }
 
 .footer_heading {
@@ -374,9 +391,25 @@ header_bg {
     color: aquamarine
 }
 
-
-
+.card {
+    margin: 20px;
+}
+.breadcrumb{
+    height: 10vw;
+}
 @media screen and (max-width: 1000px) {
+    .blog-card {
+        width: 70vw !important;
+    }
+
+    .blog-container {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .appliance {
         height: auto;
         width: auto;
@@ -424,14 +457,16 @@ header_bg {
         background: none;
         width: 90%
     }
-    .calculator_readonly, .each_appliance{
+
+    .calculator_readonly,
+    .each_appliance {
         width: ;
         display: flex;
         justify-content: flex-end;
         align-items: center;
         flex-direction: row;
         border: 1px solid #73AF4D;
-        
+
         border-radius: 5px;
         font-size: 2.5vw;
 
@@ -439,9 +474,9 @@ header_bg {
 
     .each_appliance {
         font-size: 3vw;
-        margin:0;
-        padding:0;
-        
+        margin: 0;
+        padding: 0;
+
     }
 
     .each_appliance input {
@@ -493,7 +528,7 @@ header_bg {
         justify-content: center;
         align-items: center;
         padding: 10px;
-            margin:0;
+        margin: 0;
         text-align: center;
     }
 
@@ -508,17 +543,21 @@ header_bg {
     .footer_heading p {
         font-size: 2vw;
     }
-    .footer_heading{
+
+    .footer_heading {
         align-items: center;
     }
-    .social-icon{
+
+    .social-icon {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-    .social-icon img{
+
+    .social-icon img {
         margin: 10px;
     }
+
     .subscribe {
         height: auto;
         padding: 100px 0;
@@ -550,9 +589,12 @@ header_bg {
         justify-content: center;
     }
 }
-@media screen and (max-width: 650px){
-    .delete_calc{
-        position: relative;        
+
+@media screen and (max-width: 650px) {
+
+    .delete_calc {
+        position: relative;
         right: 200px;
     }
+
 }
