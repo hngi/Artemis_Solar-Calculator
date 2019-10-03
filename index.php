@@ -173,10 +173,17 @@
 -->
         </form>
     </section>
-    <section class="blog-section">
-       <h1 style="text-align:center">Read Articles</h1>
-        <?php include('includes/blog_section.php') ?>
+    <section style="padding:40px; font-size:13px" class="container-fluid row mx-auto">
+       <h1 class="col-sm-12 col-12" style="text-align:center">Read Articles</h1>
+        <?php include('includes/feed.php') ?>
     </section>
+    
+<!--
+    <section class="blog-section">
+       
+        /*< include('includes/blog_section.php') ?>*/
+    </section>
+-->
     <section class="footer">
        
         <div class="footer_heading col-12 col-sm-4">
@@ -210,6 +217,7 @@
     <script src="js/add-appliance.js"></script>
        <script src="js/blog_carousel.js"></script>
 <script>
+    
     function checkScroll(){
     var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
 

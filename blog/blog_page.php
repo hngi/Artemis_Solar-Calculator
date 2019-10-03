@@ -64,6 +64,7 @@ Energy production in the 1950s was a rapidly changing landscape. Power plants us
 The space race was on. The first US satellite launch attempt on December 6th, 1957 was a failure – blowing up on the pad. The first successful launch was on January 31, 1958, when Explorer 1 became the first spacecraft to detect the Van Allen radiation belt. It continued on its mission for four months, until its batteries ran out.
 
 On March 17th, the United States successfully launched its second satellite in secret – Vanguard 1. During development, a debate raged on how to power the device. Chemical batteries were the default choice. Dr. Hans Ziegler argued that the satellite should use the newly created silicon solar cell for power. The US Naval Research Laboratories (NRL) was reluctant to use the untested technology on such an important project. In the end, Vanguard 1 used both power sources. Dr. Ziegler was vindicated when the batteries failed after about a week in orbit. The solar-powered Vanguard continued its mission uninterrupted for several years.</p>
+          
            </article>
        </main>
        <aside class="col-12 col-sm-12 col-lg-4 recent_articles">

@@ -397,6 +397,7 @@ header_bg {
 .breadcrumb{
     height: 10vw;
 }
+
 @media screen and (max-width: 1000px) {
     .blog-card {
         width: 70vw !important;
