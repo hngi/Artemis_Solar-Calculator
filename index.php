@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <link rel="icon" href="https://res.cloudinary.com/incolet/image/upload/v1569671533/arte_lgn5fj.jpg" sizes="16x16" type="image/png">
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style/index.css">
   <link rel="stylesheet" href="style/checkbox.css">
+
     <script src="https://kit.fontawesome.com/1b74471b9a.js" crossorigin="anonymous"></script>
     <script
             src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -119,8 +119,8 @@
         </script>
     </section>
     <section class="result">
-        <p>Total KiloWatt-Hours/Day:</p>
-        <h1 id="result"><?php echo number_format($total_kilowatts,0) ?>kwh</h1>
+        <p>Total KiloWatt-Hours/Month:</p>
+        <h1 id="result"><?php echo number_format($total_kilowatts*30,0) ?>kwh</h1>
     </section>
     <section class="diy">
         <main class="col-sm-7">
@@ -173,31 +173,30 @@
 -->
         </form>
     </section>
+    <section style="padding:40px; font-size:13px" class="container-fluid row mx-auto">
+       <h1 class="col-sm-12 col-12" style="text-align:center">Read Articles</h1>
+        <?php include('includes/feed.php') ?>
+    </section>
+    
+<!--
+    <section class="blog-section">
+       
+        /*< include('includes/blog_section.php') ?>*/
+    </section>
+-->
     <section class="footer">
        
-<<<<<<< HEAD
         <div class="footer_heading col-12 col-sm-4">
             <h1><img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569479398/Shape_jx4klq.png" alt="">Artemis</h1>
             <p>Solar Load Calculator</p>
         </div>
         <div class="col-12 col-sm-7 footer_caption">
-=======
-        <div class="footer_heading col-4 col-sm-4">
-            <h1><img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569479398/Shape_jx4klq.png" alt="">Artemis</h1>
-            <p>Solar Load Calculator</p>
-        </div>
-        <div class="col-7 col-sm-7 footer_caption">
->>>>>>> 2d233972c5d3b1f0b6f8ea9f105271ba0d34a755
             <p><B>About Solar Load Calculator</B><br>
             This calculator is a refreshingly simple, easy to use web interface for calculating load/appliances in order to use solar energy. Why? Because our mission is to build a better internet, one digital product at a time that promotes renewable energy. <br> Like the site? Send us a note.
             
             </p>
         </div>
-<<<<<<< HEAD
         <div class="col-sm-1 col-12 social-icon">
-=======
-        <div class="col-sm-1 col-1 social-icon">
->>>>>>> 2d233972c5d3b1f0b6f8ea9f105271ba0d34a755
             <a href=""><img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569479222/twitter-black-shape_q4pagm.png" alt=""></a>
             <a href=""><img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569479210/facebook-letter-logo_fwtp27.png" alt=""></a>
        <a href=""><img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569479207/google-logo_adjanc.png" alt=""></a> 
@@ -214,8 +213,11 @@
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="js/add-appliance.js"></script>
+       <script src="js/blog_carousel.js"></script>
 <script>
+    
     function checkScroll(){
     var startY = $('.navbar').height() * 2; //The point where the navbar changes in px
 

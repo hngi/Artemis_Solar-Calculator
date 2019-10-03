@@ -1,0 +1,235 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #73AF4D;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #73AF4D;
+}
+
+header nav {
+    background-color: none;
+}
+
+header_bg {
+    width: 100vw;
+}
+
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: rgba(114, 174, 76, 0.89);
+
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.footer {
+    padding: 30px 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: RGB(115, 175, 77, 0.2);
+}
+
+.footer_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-
+        /*
+    position: relative;
+    bottom: 16px
+*/
+}
+
+.blog-section {
+    padding-top: 50px;
+    }
+
+.blog-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-title,
+.blog-text {
+    font-size: 13px;
+}
+
+.footer_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer_heading h1 {
+    font-size: 60px;
+    font-weight: 640;
+}
+
+.footer_heading p {
+    line-height: 0.1;
+    font-size: 22px
+}
+
+.footer_caption p {
+    font-size: 13px;
+
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icon img {
+    height: 15px;
+    margin-bottom: 18px;
+}
+
+.artemis {
+    background: #2D451E;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+.artemis input::placeholder {
+    color: #fff;
+
+}
+
+.artemis-width {
+    height: 35px;
+}
+
+.copyright p {
+    text-align: center;
+    padding: 10px;
+}
+
+.copyright a {
+    color: aquamarine
+}
+
+.card {
+    margin: 20px;
+}
+.breadcrumb{
+    padding-top:5vw ;
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-image: url('https://res.cloudinary.com/wpgroom-com/image/upload/v1569363924/clouds-dark-dawn-156451_lpcum1.png');
+    background-position: center;
+}
+.breadcrumb a{
+    color:aquamarine;
+}
+.our-blog{
+    margin: ;
+}
+.blog-content{
+    padding: 10vmin;
+    line-height: 2;
+}
+
+ .recent_articles{
+    padding: 10vmin ;
+        display: flex;
+        flex-direction: column;
+     line-height: 2
+    }
+    .recent_articles a{
+        color: #000;
+    }
+@media screen and (max-width: 1000px) {
+    .blog-card {
+        width: 70vw !important;
+    }
+
+    .blog-container {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+   
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .footer_heading h1 {
+        font-size: 6vw;
+    }
+
+    .footer_heading img {
+        width: 6vw;
+    }
+
+    .footer_heading p {
+        font-size: 2vw;
+    }
+
+    .footer_heading {
+        align-items: center;
+    }
+
+    .social-icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .social-icon img {
+        margin: 10px;
+    }
+
+    
+}
+
+@media screen and (max-width: 650px) {
+
+    .delete_calc {
+        position: relative;
+        right: 200px;
+    }
+
+}
