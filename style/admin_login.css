@@ -1,0 +1,75 @@
+body{
+   margin:0; 
+   padding: 0;
+   background: url(https://res.cloudinary.com/wpgroom-com/image/upload/v1570054298/dominion_solar_farm_header_3-2_1_huo05o.jpg);
+   background-size:auto;
+    background-repeat: no-repeat;
+   font-family: sans-serif;
+}
+.loginbox {
+    width: 320px;
+    height: auto;
+    border-radius: 0 90px;
+    background: rgb(30, 35, 91, 0.7);
+    color:#fff;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.logo{
+    width: 200px;
+    position: relative;
+    top:-50px;
+    
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginbox p {
+    margin: 0;
+    padiing: 0;
+    font-weight: bold;
+}
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px
+}
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 5px;
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #9199eb;
+    color: #000 ;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #407ac7;
+    color: #fff;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.loginbox a:hover{
+    color: white;
+}
