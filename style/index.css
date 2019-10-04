@@ -20,6 +20,7 @@
     background: #73AF4D;
 }
 
+
 header nav {
     background-color: none;
 }
@@ -70,9 +71,7 @@ header_bg {
     border: none;
     text-align: center;
     background: none;
-    outline: none;
 }
-
 
 .append {
     margin-top: 100px;
@@ -159,9 +158,7 @@ header_bg {
 .each_appliance button {
     color: white;
     background-color: #2D451E;
-    border-radius: 10px 10px 10px 10px;
-    margin-left: 30px;
-
+    border-radius: 20px 20px 20px 20px;
 }
 
 .each_appliance input {
@@ -311,6 +308,7 @@ header_bg {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: RGB(115, 175, 77, 0.2);
 }
 
 .footer_logo {
@@ -321,6 +319,22 @@ header_bg {
     position: relative;
     bottom: 16px
 */
+}
+
+.blog-section {
+    padding-top: 50px;
+    }
+
+.blog-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-title,
+.blog-text {
+    font-size: 13px;
 }
 
 .footer_heading {
@@ -378,9 +392,26 @@ header_bg {
     color: aquamarine
 }
 
-
+.card {
+    margin: 20px;
+}
+.breadcrumb{
+    height: 10vw;
+}
 
 @media screen and (max-width: 1000px) {
+    .blog-card {
+        width: 70vw !important;
+    }
+
+    .blog-container {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .appliance {
         height: auto;
         width: auto;
@@ -391,7 +422,6 @@ header_bg {
         flex-direction: column;
         border: none
     }
-<<<<<<< HEAD
 
     .appliance button {
         margin-left: 0;
@@ -429,14 +459,16 @@ header_bg {
         background: none;
         width: 90%
     }
-    .calculator_readonly, .each_appliance{
+
+    .calculator_readonly,
+    .each_appliance {
         width: ;
         display: flex;
         justify-content: flex-end;
         align-items: center;
         flex-direction: row;
         border: 1px solid #73AF4D;
-        
+
         border-radius: 5px;
         font-size: 2.5vw;
 
@@ -444,9 +476,9 @@ header_bg {
 
     .each_appliance {
         font-size: 3vw;
-        margin:0;
-        padding:0;
-        
+        margin: 0;
+        padding: 0;
+
     }
 
     .each_appliance input {
@@ -498,7 +530,7 @@ header_bg {
         justify-content: center;
         align-items: center;
         padding: 10px;
-            margin:0;
+        margin: 0;
         text-align: center;
     }
 
@@ -513,17 +545,21 @@ header_bg {
     .footer_heading p {
         font-size: 2vw;
     }
-    .footer_heading{
+
+    .footer_heading {
         align-items: center;
     }
-    .social-icon{
+
+    .social-icon {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-    .social-icon img{
+
+    .social-icon img {
         margin: 10px;
     }
+
     .subscribe {
         height: auto;
         padding: 100px 0;
@@ -555,117 +591,12 @@ header_bg {
         justify-content: center;
     }
 }
-@media screen and (max-width: 650px){
-    .delete_calc{
-        position: relative;        
+
+@media screen and (max-width: 650px) {
+
+    .delete_calc {
+        position: relative;
         right: 200px;
     }
-=======
 
-    .appliance button {
-        margin-left: 0;
-        padding: 0px 40px;
-        width: 80vw;
-        height: 50px;
-        color: white;
-        font-weight: 500;
-        font-size:20px;
-        background-color: #2D451E;
-        border-radius: 0 0 20px 20px;
-
-    }
-
-    .appliance input::placeholder {
-        color: black;
-    }
-
-    .appliance input {
-        border: 1px solid;
-        width: 80vw;
-        height: 50px;
-        margin: 10px;
-        font-size:20px;
-        text-align: center;
-        background: none;
-    }
-
-    .appliance input:nth-child(1) {
-        border-radius: 20px 20px 0 0;
-    }
-    .calculator_readonly input {
-    border: none;
-    text-align: center;
-    background: none;
-        width: 90%
-}
-
-.calculator_readonly {
-    width: ;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: row;
-    border: 1px solid #73AF4D;
-    padding: 5px;
-    background: ;
-    border-radius: 5px;
-    font-size: 2.5vw;
-
-}
-    .each_appliance{
-
-    }
-    .each_appliance input{
-        width:16vw;
-        height:40px;
-
-        padding-right: 0px;
-    }
-    .each_appliance button{
-        width: 12vw;
-        padding: 4px 1px;
-        font-size: 12px;
-        margin-left: 20px;
-
-    }
-    .result h1 {
-    color: #73AF4D;
-    font-size: 13vw;
-    line-height: 1.0;
-}
-
-.result p {
-    color: #FBB222;
-    font-size: 4vw;
-}
-    .diy{
-        margin: 0;
-        height: auto;
-    }
-    .diy main h1 {
-   text-align: center;
-}
-
-.diy_items div {
-    display: flex;
-    flex-direction: row;
-    line-height: ;
-}
-.diy aside {
-    display: none;
-
-}
-    .footer {
-    padding: 30px 0;
-}
-    .footer_heading h1{
-        font-size: 6vw;
-    }
-    .footer_heading img{
-        width: 6vw;
-    }
-    .footer_heading p{
-        font-size: 2vw;
-    }
->>>>>>> 2d233972c5d3b1f0b6f8ea9f105271ba0d34a755
 }
