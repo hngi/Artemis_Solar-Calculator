@@ -8,7 +8,7 @@
           <div class="card-body" style="font-size:13px;">
             <h5 class="card-title">Tomorrow Solar Prowess</h5>
             <p class="card-text">Solar energy works by capturing the sun's energy and turning it into electricity for your home or business.</p>
-            <a href="#" class="btn btn-success">Read more</a>
+            <a href="blog/blog_page.php" class="btn btn-success">Read more</a>
           </div>
         </div>
 <!--        first blog post ends here-->
@@ -19,7 +19,7 @@
           <div class="card-body" style="font-size:13px;">
             <h5 class="card-title">Tomorrow Solar Prowess</h5>
             <p class="card-text">Solar energy works by capturing the sun's energy and turning it into electricity for your home or business.</p>
-            <a href="#" class="btn btn-success">Read more</a>
+            <a href="blog/blog_page.php" class="btn btn-success">Read more</a>
           </div>
         </div>
 <!--        second blog post ends here-->
@@ -29,7 +29,7 @@
           <div class="card-body" style="font-size:13px;">
             <h5 class="card-title">Tomorrow Solar Prowess</h5>
             <p class="card-text">Solar energy works by capturing the sun's energy and turning it into electricity for your home or business.</p>
-            <a href="#" class="btn btn-success">Read more</a>
+            <a href="blog/blog_page.phpp" class="btn btn-success">Read more</a>
           </div>
         </div>
         
