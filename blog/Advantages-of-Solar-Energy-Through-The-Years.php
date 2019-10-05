@@ -41,31 +41,34 @@
 <!--   Blog Section-->
    <section class="container-fluid row our-blog">
        <main class="col-12 col-sm-12 col-lg-8 blog-content">
-           <article>
+            <article>
                <div class="blog_img_box"><img class=" img-thumbnail" src="https://res.cloudinary.com/wpgroom-com/image/upload/v1570163751/blog_img_xpw6tr.png" alt=""></div>
                <div class="blog_excerpt_box">
                <div class="blog_excerpt_content">
                <h2 class="main_blog_title">Advantages of Solar Energy Through The Years</h2>
                <p class="blog_publish_date">19 Sep 2019</p>
                <p class="blog_writup">
-                 IN THE BEGINNING…
+                   </p>
+                  <p> IN THE BEGINNING…
 Light has been around since the beginning of time, but understanding how to convert it into electricity is relatively new, right? It depends on your perspective and definition of “new.” And through the years, the advantages of solar energy over other sources has changed as well.
 
-                   The Timeline of Solar Cells on Wikipedia starts surprisingly early – in 1839. French Physicist Alexandre Edmond Becquerel was only 19 years old when he first observed the Photovoltaic Effect using an electrode in a conductive solution that was exposed to light. Charles Fritts created the first working selenium solar cell in 1883 – with an efficiency of 1%. <a href="Advantages-of-Solar-Energy-Through-The-Years.php">Read more</a></p>
-                   </div>
-            </div>
+The Timeline of Solar Cells on Wikipedia starts surprisingly early – in 1839. French Physicist Alexandre Edmond Becquerel was only 19 years old when he first observed the Photovoltaic Effect using an electrode in a conductive solution that was exposed to light. Charles Fritts created the first working selenium solar cell in 1883 – with an efficiency of 1%.
 
-           </article>
-           
-            <article>
-               <div class="blog_img_box"><img class=" img-thumbnail" src="../uploads/artemis-thumbnail-04-10-2014.jpg" alt=""></div>
-               <div class="blog_excerpt_box">
-               <div class="blog_excerpt_content">
-               <h2 class="main_blog_title">Solar Power Today</h2>
-               <p class="blog_publish_date">19 Sep 2019</p>
-               <p class="blog_writup">
-                 Solar power is one of the most efficient yet clean sources of energy we have access to. There are no increased fuel costs or dependencies, no ties to pollutants, and it’s both reliable and affordable. Of course, in order to harness solar power you need access to specific technology. This tech relies on either small-scale solar photovoltaic (PV) systems, large-scale solar photovoltaic systems, or concentrating solar power (CSP) systems to capture solar energy.
-<a href="solar-power-today-tomorrow.php">Read More</a></p>
+Theoretical work continued throughout the 1800’s and early 1900’s. It’s interesting that Albert Einstein is best known for his theories of Relativity and his famous E=MC2, yet he was awarded the Nobel Prize in Physics for his work on the photoelectric effect. Advances in materials and manufacturing continued through the first half of the 1900’s.
+
+The modern photovoltaic solar cell can trace its origin to Bell Labs, the same division of AT&amp;T that had created the first transistor in 1947. Just a few years later, Scientists Gerald Pearson, Daryl Chapin and Calvin Fuller created the first silicon solar cell that could generate a measurable current. The new development was demonstrated at a National Academy of Science meeting in 1954, and was about 6% efficient.
+
+At the time of the announcement by Bell Labs, the New York Times called the invention “The beginning of a new era, leading eventually to the realization of harnessing the almost limitless energy of the sun for the uses of civilization.”
+
+Energy production in the 1950s was a rapidly changing landscape. Power plants used abundant coal. Petroleum products were powering the thirst for the automobile. With the recently developed nuclear power generation, who needed a source with a measly 6% efficiency?  
+               </p>
+    <h3>SPACE…THE FIRST FRONTIER</h3>
+          <p>The world changed on October 4th, 1957. The Soviet Union launched the first artificial satellite to orbit the Earth, Sputnik 1. The idea that the USSR had beaten the West into space was a shock to governments, scientists, and the public at large. Sputnik proudly broadcast its radio signal as it circled the planet – until its batteries ran out after 21 days. It lasted another 2 months in a silent orbit before burning up in the atmosphere.
+
+The space race was on. The first US satellite launch attempt on December 6th, 1957 was a failure – blowing up on the pad. The first successful launch was on January 31, 1958, when Explorer 1 became the first spacecraft to detect the Van Allen radiation belt. It continued on its mission for four months, until its batteries ran out.
+
+On March 17th, the United States successfully launched its second satellite in secret – Vanguard 1. During development, a debate raged on how to power the device. Chemical batteries were the default choice. Dr. Hans Ziegler argued that the satellite should use the newly created silicon solar cell for power. The US Naval Research Laboratories (NRL) was reluctant to use the untested technology on such an important project. In the end, Vanguard 1 used both power sources. Dr. Ziegler was vindicated when the batteries failed after about a week in orbit. The solar-powered Vanguard continued its mission uninterrupted for several years.</p>
+                   
                    </div>
             </div>
 
@@ -95,10 +98,9 @@ Light has been around since the beginning of time, but understanding how to conv
         <?php 
         include('../includes/feed.php')?>
     </div>
-       </aside>
-   </section>
+       </aside>  </section>
 <!--   blog section-->
-   <section class="footer">
+    <section class="footer">
        <div class="row">
        <div class="col-12 col-sm-12 col-md-7 footer">
         <div class="footer_heading col-3 col-sm-4">

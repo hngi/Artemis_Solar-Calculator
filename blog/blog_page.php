@@ -15,7 +15,7 @@
             crossorigin="anonymous">
     </script>
   
-  	<title>Solar Load Calculator</title>
+  	<title>Blog | Solar Load Calculator</title>
 </head>
 <body>
     <header >
