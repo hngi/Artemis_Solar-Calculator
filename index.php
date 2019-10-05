@@ -185,7 +185,7 @@
         </div>
         <div class="col-12 col-sm-7 footer_caption">
             <p><B>About Solar Load Calculator</B><br>
-            This calculator is a refreshingly simple, easy to use web interface for calculating load/appliances in order to use solar energy. Why? Because our mission is to build a better internet, one digital product at a time that promotes renewable energy. <br> Like the site? Send us a note.
+            This calculator is a refreshingly simple, easy to use web interface for calculating load/appliances in order to use solar energy. Why? Because our mission is to build a better internet, one digital product at a time that promotes renewable energy. <br> Like the site? Send us a note.<br> Want to join our team? Get in <a href="careerpage.php">here!</a>
             
             </p>
         </div>
@@ -196,7 +196,7 @@
         </div>
     </section>
     <section class="copyright artemis">
-        <p>&copy; 2017 - 2019 <a href="">Atermis</a></p>
+        <p>&copy; 2017 - 2019 <a href="">Artermis</a></p>
     </section>
   <!--NAV BAR-->
         
