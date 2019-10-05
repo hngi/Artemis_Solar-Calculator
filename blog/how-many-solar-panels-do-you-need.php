@@ -15,14 +15,14 @@
             crossorigin="anonymous">
     </script>
   
-  	<title>Solar Load Calculator</title>
+  	<title>Blog | Solar Load Calculator</title>
 </head>
 <body>
     <header >
       <div class="header">
        <nav class="navbar navbar-expand-sm bg-artemis  fixed-top">
        
-   <a class=" col-sm-8 navbar-brand" href="#">
+   <a class=" col-sm-8 navbar-brand" href="../index.php">
     <img src="https://res.cloudinary.com/wpgroom-com/image/upload/v1569383582/HEADER_pz58tu.png" alt="Logo">
   </a>
 </nav> 
@@ -34,40 +34,41 @@
     <div class="breadcrumb">
       <div class="container text-center">
         <h3 class="mb-0">Blog</h3>
-        <p class="mb-0 unit-6"><a href="index.html">Home</a> <span class="sep">></span> <span>Blog</span></p>
+        <p class="mb-0 unit-6"><a href="../index.php">Home</a> <span class="sep">></span> <span><a href="main_blog_page.php">Blog</a></span></p>
       </div>
     </div>
 <!--    breadcrumb-->
 <!--   Blog Section-->
    <section class="container-fluid row our-blog">
        <main class="col-12 col-sm-12 col-lg-8 blog-content">
-           <article>
-               <div class="blog_img_box"><img class=" img-thumbnail" src="https://res.cloudinary.com/wpgroom-com/image/upload/v1570163751/blog_img_xpw6tr.png" alt=""></div>
-               <div class="blog_excerpt_box">
-               <div class="blog_excerpt_content">
-               <h2 class="main_blog_title">Advantages of Solar Energy Through The Years</h2>
-               <p class="blog_publish_date">19 Sep 2019</p>
-               <p class="blog_writup">
-                 IN THE BEGINNING…
-Light has been around since the beginning of time, but understanding how to convert it into electricity is relatively new, right? It depends on your perspective and definition of “new.” And through the years, the advantages of solar energy over other sources has changed as well.
-
-                   The Timeline of Solar Cells on Wikipedia starts surprisingly early – in 1839. French Physicist Alexandre Edmond Becquerel was only 19 years old when he first observed the Photovoltaic Effect using an electrode in a conductive solution that was exposed to light. Charles Fritts created the first working selenium solar cell in 1883 – with an efficiency of 1%.</p>
-                   </div>
-            </div>
-
-           </article>
-           
             <article>
                <div class="blog_img_box"><img class=" img-thumbnail" src="https://res.cloudinary.com/wpgroom-com/image/upload/v1570163751/blog_img_xpw6tr.png" alt=""></div>
                <div class="blog_excerpt_box">
                <div class="blog_excerpt_content">
-               <h2 class="main_blog_title">Advantages of Solar Energy Through The Years</h2>
+               <h2 class="main_blog_title">How Many Solar Panels Do You Need</h2>
                <p class="blog_publish_date">19 Sep 2019</p>
                <p class="blog_writup">
-                 IN THE BEGINNING…
-Light has been around since the beginning of time, but understanding how to convert it into electricity is relatively new, right? It depends on your perspective and definition of “new.” And through the years, the advantages of solar energy over other sources has changed as well.
+                   </p>
+                  <p> Determining how many solar panels you’ll need for your home means first knowing what your goals are. Do you want to minimize your carbon footprint?  Maximize your return on your investment? Save as much money as possible?  Most people want to save money while minimizing their environmental impact.
 
-                   The Timeline of Solar Cells on Wikipedia starts surprisingly early – in 1839. French Physicist Alexandre Edmond Becquerel was only 19 years old when he first observed the Photovoltaic Effect using an electrode in a conductive solution that was exposed to light. Charles Fritts created the first working selenium solar cell in 1883 – with an efficiency of 1%.</p>
+To calculate how many solar panels you need, you need to know the following: how much energy your household uses; your roof’s usable surface area; the climate and peak sunlight in your area; the wattage and relative efficiency of the photovoltaic (PV) panels you’re considering; and whether net metering is available.
+
+One simple way of answering the “How many solar panels do I need” question is to consult a professional solar installer, who can give you a free home solar evaluation. 
+               </p>
+    <h3>1. How much solar power will you need?</h3>
+          <p>To determine your home’s average energy requirements look at past utility bills. You can calculate how many solar panels you need by multiplying your household’s hourly energy requirement by the peak sunlight hours for your area and dividing that by a panel’s wattage. Use a low-wattage (150W) and high-wattage (370W) example to establish a range (ex: 17-42 panels to generate 11,000 kWh/year). Note that how much sunlight your roof gets and factors such as roof size and battery storage will figure in as well.</p>
+<h3>2. How many watts do you currently use?</h3>
+<p>
+Look at your electricity bill for average usage. Look for “Kilowatt Hours (or kWh) Used” or something similar, and then note the time period represented (usually 30 days). If your bill doesn’t show kilowatt hours used, look for beginning and ending meter readings and subtract the previous reading from the most recent one.
+
+You want daily and hourly usage for our calculations, though, so if your bill doesn’t show a daily average, just divide the monthly or annual average by 30 or 365 days, respectively, and then divide again by 24 to determine your hourly average electricity usage. Your answer will be in kilowatt-hours (kWh). (And just in case you are wondering, a kilowatt-hour is how much power you are using at any given time multiplied by the total time the power is being used.)
+
+A small home in a temperate climate might use something like 200 kwh per month, and a larger home in the south where air conditioners account for the largest portion of home energy usage might use 2,000 kWh or more. The average U.S. home uses about 900 kWh per month. So that’s 30 kWh per day or 1.25 kWh per hour.
+
+ 
+
+Your average daily energy usage is your target daily average for to calculate your solar needs. That’s the number of kilowatt-hours you need your solar system to produce if you want to cover 100 percent of your energy needs.</p>
+                   
                    </div>
             </div>
 
@@ -77,29 +78,29 @@ Light has been around since the beginning of time, but understanding how to conv
           <div class="recent_post_container">
            <h2 class="recent_post_header">Recent Articles</h2>
            <div>
-          <p class="recent_post_title"><a href="#">Advantages of Solar Energy Through the Years</a></p>
-          <p class="blog_publish_date">19 Sep, 2019</p>
+          <p class="recent_post_title"><a href="Advantages-of-Solar-Energy-Through-The-Years.php">Advantages of Solar Energy Through the Years</a></p>
+          <p class="blog_publish_date">04 Oct, 2019</p>
            </div>
            
             <div>
-          <p class="recent_post_title"><a href="#">Advantages of Solar Energy Through the Years</a></p>
-          <p class="blog_publish_date">19 Sep, 2019</p>
+          <p class="recent_post_title"><a href="solar-power-today-tomorrow.php">Solar Power Today</a></p>
+          <p class="blog_publish_date">04 Oct, 2019</p>
            </div>
            
             <div>
-          <p class="recent_post_title"><a href="#">Advantages of Solar Energy Through the Years</a></p>
-          <p class="blog_publish_date">19 Sep, 2019</p>
+          <p class="recent_post_title"><a href="how-many-solar-panels-do-you-need.php">How Many Solar Panels Do You Need</a></p>
+          <p class="blog_publish_date">04 Oct, 2019</p>
            </div>
            
-            <div>
-          <p class="recent_post_title"><a href="#">Advantages of Solar Energy Through the Years</a></p>
-          <p class="blog_publish_date">19 Sep, 2019</p>
            </div>
-           </div>
-       </aside>
-   </section>
+           <div style="padding:40px; font-size:13px" class="container-fluid row mx-auto">
+       <h1 class="col-sm-12 col-12 recent_post_header" style="text-align:center; font-size:30px; ">We Recommend</h1>
+        <?php 
+        include('../includes/feed.php')?>
+    </div>
+       </aside>   </section>
 <!--   blog section-->
-   <section class="footer">
+    <section class="footer">
        <div class="row">
        <div class="col-12 col-sm-12 col-md-7 footer">
         <div class="footer_heading col-3 col-sm-4">
