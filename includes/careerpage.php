@@ -46,14 +46,14 @@ function scrollWin() {
             <div class="grid">
             <div class="col-xs-4">
 					<ul>
-						<li style="font-size: 2vw;"><a href="index.php"><b>Go to Home</b></a></li>
+						<li><a href="index.php"><b>Go to Home</b></a></li>
 					</ul>
             </div></div></div></section>
     </header>
   
     
-    <main id="generic_template"> <div style="position:relative"> <div style="background-image:url(https://news.cornell.edu/sites/chronicle.cornell/files/HarfordSolarFarm460.jpg?itok=AY_FdCHd);max-width:100%;height:auto;"> <h1 style="font-size: 4vw; margin-top: 100px; color: #fff; text-align: center;">Welcome to<br/> Careers at Artemis</h1> </div> <div class="generic_home_summary_container" style="padding-bottom:20px; background-color:#ffb700;"> <div class="text-center" style="padding:50px 10px;"> <h3 style="font-size: 2vw;">We bring the excitement of a start-up coupled with a brand that is recognized and respected in virtually every country around the world.</h3> 
-        <h2 style="font-size: 3vw;">Why not get in on the action?</h2><br>
+    <main id="generic_template"> <div style="position:relative"> <div style="background-image:url(https://news.cornell.edu/sites/chronicle.cornell/files/HarfordSolarFarm460.jpg?itok=AY_FdCHd);max-width:100%;height:auto;"> <h1 style="margin-top: 100px; color: #fff; text-align: center;">Welcome to<br/> Careers at Artemis</h1> </div> <div class="generic_home_summary_container" style="padding-bottom:20px; background-color:#ffb700;"> <div class="text-center" style="padding:50px 10px;"> <h3>We bring the excitement of a start-up coupled with a brand that is recognized and respected in virtually every country around the world.</h3> 
+        <h2>Why not get in on the action?</h2><br>
         <button class="button" onclick="scrollWin()">See Available Positions</button>
         </div></div> </div>
     <h3></h3>
@@ -65,28 +65,28 @@ function scrollWin() {
 <p>&nbsp;</p>
     <p>&nbsp;</p>
     
-    <h1 style="text-align: center;font-size: 4vw;"><span style="color: darkgreen;">Meet the Artemis Team!</span></h1>
+    <h1 style="text-align: center;"><span style="color: darkgreen;">Meet the Artemis Team!</span></h1>
 <h3></h3>
 <h3></h3>
  <div style="background-color:darkgreen;color:white;padding:20px;border-radius: 2%">   
-<h3 style="text-align: left;font-size: 2vw">Oluwamayowa Fadairo</h3>
-<p style="text-align: left;font-size: 1.5vw;"><em>Software Engineer, Lead</em></p>
+<h3 style="text-align: left;">Oluwamayowa Fadairo</h3>
+<p style="text-align: left;"><em>Software Engineer, Lead</em></p>
 <p><img style="align-self: right" class="alignright wp-image-2069 size-medium" src="https://avatars2.githubusercontent.com/u/54279480?s=460&v=4"  alt="" width="300" height="300" sizes="(max-width: 300px) 100vw, 300px" /></p>
-     <p style="font-size: 1.5vw;"><em>Mayowa is Artemis&#8217;s lead and general manager. Aside being a software enginner, she is a Professional Engineer with a degree in Engineering Physics and a Masters in Electrical Engineering. Mayowa&#8217;s interest in solar, and her desire to build her own solar home, led to the creation of the Artemis Solar Load Calculator.</em></p></div>
+     <p><em>Mayowa is Artemis&#8217;s lead and general manager. Aside being a software enginner, she is a Professional Engineer with a degree in Engineering Physics and a Masters in Electrical Engineering. Mayowa&#8217;s interest in solar, and her desire to build her own solar home, led to the creation of the Artemis Solar Load Calculator.</em></p></div>
     <p>&nbsp;</p>
 <p>&nbsp;</p>
     <div style="background-color:darkgreen;color:white;padding:20px;border-radius: 2%">
-<h3 style="text-align: left;font-size: 2vw">Agbeniga Agboola</h3>
-<p style="font-size: 1.5vw"><em>Team Member, Software Engineer, Front-End Lead</em></p>
+<h3 style="text-align: left;">Agbeniga Agboola</h3>
+<p><em>Team Member, Software Engineer, Front-End Lead</em></p>
 <p><img class="alignleft wp-image-2068 size-medium" src="https://avatars2.githubusercontent.com/u/51911421?s=460&v=4" width="300" height="300" sizes="(max-width: 300px) 100vw, 300px" /></p>
-<p style="font-size: 1.5vw"><em>"Crowdsourcing has the potential for major impact on the way we design solutions, but to unleash this potential we need more creative minds exploring novel ways to use it."</em></p></div>
+<p><em>"Crowdsourcing has the potential for major impact on the way we design solutions, but to unleash this potential we need more creative minds exploring novel ways to use it."</em></p></div>
 <p>&nbsp;</p>
     <p>&nbsp;</p>
     <div style="background-color:darkgreen;color:white;padding:20px;border-radius:2%;">
-    <h3 style="text-align: left;font-size: 2vw;">Adetunji Adegeye</h3>
-<p style="font-size: 1.5vw"><em>Team Member, Software Engineer, Back-End Lead</em></p>
+    <h3 style="text-align: left;">Adetunji Adegeye</h3>
+<p><em>Team Member, Software Engineer, Back-End Lead</em></p>
 <p><img class="alignleft wp-image-1469 size-medium" src="https://avatars0.githubusercontent.com/u/41168551?s=460&v=4" alt="" width="300" height="300" sizes="(max-width: 300px) 100vw, 300px" /></p>
-        <p style="font-size: 1.5vw;"><em>"Artemis is welcoming to everyone."</em></p></div>
+        <p><em>"Artemis is welcoming to everyone."</em></p></div>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
     
@@ -94,12 +94,12 @@ function scrollWin() {
       <div style="background-color: #FFC922;color:white;padding:20px;border-radius:2%;" class="container">
         <div class="grid">
           <div class="col-xs-12">
-            <h2 style="font-size: 4vw;">Open Roles</h2>
+            <h2>Open Roles</h2>
           </div>
         </div>
         <div class="grid">
           <div class="col-xs-11">
-            <h4 style="font-size: 2vw;">No available positions at this moment.</h4>
+            <h4>No available positions at this moment.</h4>
             <hr>
           </div>
         </div>
